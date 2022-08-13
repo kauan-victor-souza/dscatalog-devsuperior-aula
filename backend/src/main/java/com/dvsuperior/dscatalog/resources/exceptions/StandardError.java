@@ -1,4 +1,4 @@
-package com.dvsuperior.dscatalog.resource.exceptions;
+package com.dvsuperior.dscatalog.resources.exceptions;
 
 import java.io.Serializable;
 import java.time.Instant;
