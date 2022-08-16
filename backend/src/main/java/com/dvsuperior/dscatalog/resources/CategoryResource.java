@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.dvsuperior.dscatalog.dto.CategoryDTO;
+import com.dvsuperior.dscatalog.entities.dto.CategoryDTO;
 import com.dvsuperior.dscatalog.services.CategoryService;
 
 @RestController

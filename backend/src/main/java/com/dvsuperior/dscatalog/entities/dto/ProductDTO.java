@@ -1,4 +1,4 @@
-package com.dvsuperior.dscatalog.dto;
+package com.dvsuperior.dscatalog.entities.dto;
 
 import java.io.Serializable;
 import java.time.Instant;

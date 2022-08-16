@@ -1,6 +1,6 @@
 package com.dvsuperior.dscatalog.services;
 
-import com.dvsuperior.dscatalog.dto.ProductDTO;
+import com.dvsuperior.dscatalog.entities.dto.ProductDTO;
 import com.dvsuperior.dscatalog.entities.Category;
 import com.dvsuperior.dscatalog.entities.Product;
 import com.dvsuperior.dscatalog.repository.CategoryRepository;

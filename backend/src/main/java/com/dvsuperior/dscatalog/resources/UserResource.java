@@ -1,8 +1,8 @@
 package com.dvsuperior.dscatalog.resources;
 
-import com.dvsuperior.dscatalog.dto.UserDTO;
-import com.dvsuperior.dscatalog.dto.UserInsertDTO;
-import com.dvsuperior.dscatalog.dto.UserUpdateDTO;
+import com.dvsuperior.dscatalog.entities.dto.UserDTO;
+import com.dvsuperior.dscatalog.entities.dto.UserInsertDTO;
+import com.dvsuperior.dscatalog.entities.dto.UserUpdateDTO;
 import com.dvsuperior.dscatalog.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

@@ -1,6 +1,5 @@
-package com.dvsuperior.dscatalog.dto;
+package com.dvsuperior.dscatalog.entities.dto;
 
-import com.dvsuperior.dscatalog.services.validation.UserInsertValid;
 import com.dvsuperior.dscatalog.services.validation.UserUpdateValid;
 
 @UserUpdateValid

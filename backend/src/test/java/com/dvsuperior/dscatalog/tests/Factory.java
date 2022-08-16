@@ -2,7 +2,7 @@ package com.dvsuperior.dscatalog.tests;
 
 import java.time.Instant;
 
-import com.dvsuperior.dscatalog.dto.ProductDTO;
+import com.dvsuperior.dscatalog.entities.dto.ProductDTO;
 import com.dvsuperior.dscatalog.entities.Category;
 import com.dvsuperior.dscatalog.entities.Product;
 
