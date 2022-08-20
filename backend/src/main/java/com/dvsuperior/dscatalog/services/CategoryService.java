@@ -1,6 +1,6 @@
 package com.dvsuperior.dscatalog.services;
 
-import com.dvsuperior.dscatalog.entities.dto.CategoryDTO;
+import com.dvsuperior.dscatalog.dto.CategoryDTO;
 import com.dvsuperior.dscatalog.entities.Category;
 import com.dvsuperior.dscatalog.repository.CategoryRepository;
 import com.dvsuperior.dscatalog.services.exceptions.DatabaseException;

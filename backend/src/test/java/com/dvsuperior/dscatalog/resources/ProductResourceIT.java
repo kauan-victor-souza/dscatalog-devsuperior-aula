@@ -1,6 +1,6 @@
 package com.dvsuperior.dscatalog.resources;
 
-import com.dvsuperior.dscatalog.entities.dto.ProductDTO;
+import com.dvsuperior.dscatalog.dto.ProductDTO;
 import com.dvsuperior.dscatalog.tests.Factory;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.BeforeEach;

@@ -12,8 +12,8 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.dvsuperior.dscatalog.entities.dto.CategoryDTO;
-import com.dvsuperior.dscatalog.entities.dto.ProductDTO;
+import com.dvsuperior.dscatalog.dto.CategoryDTO;
+import com.dvsuperior.dscatalog.dto.ProductDTO;
 import com.dvsuperior.dscatalog.entities.Category;
 import com.dvsuperior.dscatalog.entities.Product;
 import com.dvsuperior.dscatalog.repository.CategoryRepository;

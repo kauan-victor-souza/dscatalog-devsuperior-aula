@@ -1,6 +1,6 @@
 package com.dvsuperior.dscatalog.resources;
 
-import com.dvsuperior.dscatalog.entities.dto.ProductDTO;
+import com.dvsuperior.dscatalog.dto.ProductDTO;
 import com.dvsuperior.dscatalog.services.ProductService;
 import com.dvsuperior.dscatalog.services.exceptions.DatabaseException;
 import com.dvsuperior.dscatalog.services.exceptions.ResourceNotFoundException;

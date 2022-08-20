@@ -1,6 +1,6 @@
 package com.dvsuperior.dscatalog.services;
 
-import com.dvsuperior.dscatalog.entities.dto.ProductDTO;
+import com.dvsuperior.dscatalog.dto.ProductDTO;
 import com.dvsuperior.dscatalog.repository.ProductRepository;
 import com.dvsuperior.dscatalog.services.exceptions.ResourceNotFoundException;
 import org.junit.jupiter.api.Assertions;
