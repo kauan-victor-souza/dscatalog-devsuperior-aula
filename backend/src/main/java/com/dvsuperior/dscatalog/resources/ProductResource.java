@@ -5,6 +5,7 @@ import com.dvsuperior.dscatalog.services.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -24,13 +25,8 @@ public class ProductResource {
     public ResponseEntity<Page<ProductDTO>> findAll(
             @RequestParam(value = "categoryId", defaultValue = "0") Long categoryId,
             @RequestParam(value = "name", defaultValue = "") String name,
-            @RequestParam(value = "page", defaultValue = "0") Integer page,
-            @RequestParam(value = "linesPerPage", defaultValue = "12") Integer linesPerPage,
-            @RequestParam(value = "direction", defaultValue = "ASC") String direction,
-            @RequestParam(value = "orderBy", defaultValue = "name") String orderBy
-    ) {
-        PageRequest pageRequest = PageRequest.of(page, linesPerPage, Sort.Direction.valueOf(direction), orderBy);
-        Page<ProductDTO> list = service.findAllPaged(categoryId, name.trim(), pageRequest);
+            Pageable pageable) {
+        Page<ProductDTO> list = service.findAllPaged(categoryId, name.trim(), pageable);
         return ResponseEntity.ok().body(list);
 
     }
